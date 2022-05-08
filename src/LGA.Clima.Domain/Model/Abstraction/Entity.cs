@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace LGA.Clima.Domain.Model.Abstraction
 {
-    internal class Entity
+    public abstract class Entity<TKey>
     {
+
+        public Entity(TKey id)
+        {
+            Id = id;
+        }
+
+        public TKey Id { get; }
+
     }
 }

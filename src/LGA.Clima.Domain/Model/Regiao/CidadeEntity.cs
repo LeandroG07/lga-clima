@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace LGA.Clima.Domain.Model.Regiao
 {
-    internal class CidadeEntity
+    public class CidadeEntity
     {
+
+        public CidadeEntity(string nome)
+        {
+            Nome = nome;
+        }
+
+        public string Nome { get; } 
+
     }
 }
