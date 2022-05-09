@@ -1,5 +1,5 @@
 ﻿
-namespace LGA.Clima.Domain.Model.Abstraction
+namespace LGA.Clima.Domain.Models.Abstractions
 {
     public abstract class Entity<TKey>
     {
