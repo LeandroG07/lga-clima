@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    api:
+        container_name: lga-clima-api
+        build: .
+        ports:
+            - "5050:80"

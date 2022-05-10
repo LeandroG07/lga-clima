@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Clima.Api", "src\LGA.Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Clima.Domain", "src\LGA.Clima.Domain\LGA.Clima.Domain.csproj", "{11ABBBFB-B09C-4299-9DE1-8CDB16BE0EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGA.Clima.Data", "src\LGA.Clima.Data\LGA.Clima.Data.csproj", "{4A5E55B1-5AEF-472E-BCE3-E487AFB9908A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LGA.Clima.Data", "src\LGA.Clima.Data\LGA.Clima.Data.csproj", "{4A5E55B1-5AEF-472E-BCE3-E487AFB9908A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
